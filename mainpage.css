@@ -52,7 +52,7 @@ font-weight: bold;
             background-color:white;
         }
        /* for menu section small*/
-        @media(max-width:576px){
+        @media(max-width:700px){
             .menu{
                 display: none;
             }.home_name{
