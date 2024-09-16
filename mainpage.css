@@ -49,10 +49,10 @@ font-weight: bold;
             width: 100%;
             position: fixed;
             z-index: 1000;
-            background-color:yellow;
+            background-color:white;
         }
        /* for menu section small*/
-        @media(max-width:900px){
+        @media(max-width:576px){
             .menu{
                 display: none;
             }.home_name{
@@ -272,7 +272,7 @@ margin: 0vw 4vw;
   margin-top:60px;
   background-color: skyblue;
   padding: 10px;
-  height: 1vh;
+  height: 3vh;
   border: 1px solid white;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
@@ -290,6 +290,9 @@ table,tr,td{
   width: 8rem;
   text-align: center;
   
+}
+td a{
+  color: white;
 }.btn-project{
   background: #0062b9;
   color: #fff;
@@ -328,6 +331,7 @@ table,tr,td{
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
     transition: transform .3s;
     margin-top: 5rem;
+    font-size: 1.6rem;
     border: 2px solid #fff;
 }
 .bluepass{
@@ -400,12 +404,13 @@ table,tr,td{
   letter-spacing: 2px;
   display: inline-block;
   font-weight: 700;
+  border: 2px solid #0062b9;
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
   transition: transform .3s;
 }.fotter-container{
   background-color: #000000;
-  height: 20vh;
+  height: 15rem;
   display: flex;
   gap: 10px;
   justify-content: center;
