@@ -52,7 +52,7 @@ font-weight: bold;
             background-color:white;
         }
        /* for menu section small*/
-        @media(max-width:576px){
+        @media only screen and (max-width:56em){
             .menu{
                 display: none;
             }.home_name{
@@ -78,7 +78,7 @@ font-weight: bold;
             }
         }
         /* for bar section m-lg */
-      @media(min-width:577px){
+      @media(min-width:700px){
         .dropbtn{
             display: none;
         }
@@ -272,7 +272,7 @@ margin: 0vw 4vw;
   margin-top:60px;
   background-color: skyblue;
   padding: 10px;
-  height: 3vh;
+  height: 2vh;
   border: 1px solid white;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
