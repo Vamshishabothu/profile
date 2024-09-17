@@ -51,8 +51,8 @@ font-weight: bold;
             z-index: 1000;
             background-color:white;
         }
-       /* for menu section small*/
-        @media only screen and (max-width:56em){
+       /* for section small*/
+        @media screen and (max-width:576px){
             .menu{
                 display: none;
             }.home_name{
@@ -78,7 +78,7 @@ font-weight: bold;
             }
         }
         /* for bar section m-lg */
-      @media(min-width:700px){
+      @media(min-width:577px){
         .dropbtn{
             display: none;
         }
@@ -91,6 +91,7 @@ font-weight: bold;
               flex-direction: column;
             }
           .second-container{
+            display: flex;
             flex-direction: column;
           }.rightproject{
             
@@ -141,6 +142,7 @@ height: 8vh;
 .dropdown-content {
   display: none;
   position: absolute;
+  text-align: right;
   right: 5px;
   background-color: #f9f9f9;
   width: 98vw;
@@ -281,7 +283,7 @@ margin: 0vw 4vw;
 }
 .dot{
   color: white;
-  font-size: 5px;
+
 }
 table,tr,td{
   border: 1px solid white;
