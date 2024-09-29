@@ -25,14 +25,14 @@ height: 100%;
          justify-content: flex-start;
          align-items: center;
          padding-left:2rem;
-        }.menu{
+        }
+         .menu{
            flex: 1;
            display: flex;
            gap: 5rem;
            justify-content: flex-end;
            align-items: center;
            padding-right:4rem;
-
 
 
             
@@ -52,18 +52,29 @@ font-weight: bold;
             background-color:white;
         }
        /* for section small*/
-        @media screen and (max-width:576px){
+        @media(max-width:576px){
             .menu{
                 display: none;
-            }.home_name{
+            }
+            .home_name{
               font-size: 2em;
-            }.learned_skills{
+            }
+            .learned_skills{
               font-size: 2vw;
-            }.moveborder{
+            }
+            .mepass{
+              padding: 2rem;
+            }
+            .moveborder{
               display: none;
-            }.btn-project-small{
+            }
+            .projectdesc{
+              padding: 2rem;
+            }
+            .btn-project-small{
              width: 100%;
-            }.fotter-container{
+            }
+            .fotter-container{
               display: none;
             }.fotter-container{
               display: flex;
@@ -77,6 +88,8 @@ font-weight: bold;
               gap: 10px;
             }
         }
+        
+
         /* for bar section m-lg */
       @media(min-width:577px){
         .dropbtn{
@@ -93,8 +106,7 @@ font-weight: bold;
           .second-container{
             display: flex;
             flex-direction: column;
-          }.rightproject{
-            
+          }.rightproject{ 
             align-items: center;
           }.projecttitle{
             font-size: 2.4rem;
@@ -118,7 +130,7 @@ font-weight: bold;
      
 .highlight{
   color: rgb(130, 117, 117,1.0);
-  font-weight: ;
+  /* font-weight: ; */
 
 }
       
@@ -269,6 +281,7 @@ margin: 0vw 4vw;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 7rem;
 
 }.moveborder{
   margin-top:60px;
@@ -321,6 +334,7 @@ td a{
     max-width: 80rem;
     margin: auto;
     line-height: 1.6;
+    text-align: justify;
 }.btn-project-top{
   background: #fff;
   padding: 1.5rem 5rem;
@@ -340,6 +354,7 @@ td a{
     color: #fff;
     font-size: 2.2rem;
     text-align: center;
+    
     width: 100%;
     line-height: 1.6;
     margin: 3rem auto 0 auto;
