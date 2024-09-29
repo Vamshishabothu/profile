@@ -528,7 +528,7 @@ justify-content: center;
   font-weight: 700;
   border: 1px solid #0062b9;
   border-radius: 5px;
-  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.16);
   
 }.project-total{
   padding: 2rem;
