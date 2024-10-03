@@ -33,6 +33,7 @@ height: 100%;
            justify-content: flex-end;
            align-items: center;
            padding-right:4rem;
+           font-size: 15px;
 
 
             
@@ -122,7 +123,7 @@ font-weight: bold;
           }
       }
       /* only for xxl */
-      @media (max-width:1200px){
+      @media (max-width:900px){
         .table{
           display: none;
         }
@@ -165,6 +166,7 @@ height: 8vh;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-size: 15px;
   border: 1px dashed gray;
 }
 
@@ -266,6 +268,7 @@ margin: 0vw 4vw;
   color: white;
   max-height: 120rem;
   position: relative;
+  padding: 0px;
   
 }.home_icon{
   flex: 1;
@@ -326,7 +329,12 @@ td a{
     letter-spacing: 3px;
     margin-bottom: 3.5rem;
     position: relative;
-}.mepass{
+   
+}
+/* .me::after{
+
+} */
+.mepass{
   text-align: center;
     color: #777;
     font-size: 2rem;
