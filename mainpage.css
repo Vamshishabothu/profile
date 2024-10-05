@@ -209,6 +209,9 @@ margin: 0vw 4vw;
 }.myskills{
   display: flex;
   flex-wrap: wrap;
+}
+.skill_title{
+  font-size:3.5rem;
 }.learned_skills{
  padding: 1rem 2rem;
  margin-bottom: 1.5rem;
